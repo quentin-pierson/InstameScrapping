@@ -46,12 +46,12 @@ class fljgfjgjkggfdgl:
 
 
 args = {"login_user": "Nabille_CompteFan", "login_pass": "mK5RnE84i"}
-createGoodSpanner = GoodScrapper(args)
+createGoodSpanner = GoodScrapper()
 connexion = createGoodSpanner.connect(True)
 sharedData = createGoodSpanner.get_account_information(connexion, "kanyewest")
 
 
-creditsteFljgfjgjkggfdgl = fljgfjgjkggfdgl("tfgen-spanid-20220303213628876", "database-insta-scrapping")
+creditsteFljgfjgjkggfdgl = fljgfjgjkggfdgl("tfgen-spanid-20220304203222577", "database-insta-scrapping")
 creditsteFljgfjgjkggfdgl.run()
 
 

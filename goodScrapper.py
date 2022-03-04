@@ -6,12 +6,11 @@ import uuid
 
 class GoodScrapper:
 
-    def __init__(self, listArgs):
-        self.listArgs = listArgs
 
 
     def connect(self, quiet):
-        insta_scraper = instagram_scraper.InstagramScraper(**self.listArgs, quiet = True)
+        args = {"login_user": "Nabille_CompteFan", "login_pass": "mK5RnE84i"}
+        insta_scraper = instagram_scraper.InstagramScraper(**args, quiet = True)
         insta_scraper.authenticate_with_login()
 
         print("Je suis bien connecté")
