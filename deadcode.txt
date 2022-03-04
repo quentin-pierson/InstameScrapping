@@ -1,0 +1,17 @@
+def run(self):
+        print("coucou")
+        googleSpanner = self.connect()
+        
+        self.insert_account(googleSpanner, scrapperInformation)        
+        
+        for media in medias:
+            self.insert_media(googleSpanner, media)
+        
+        for comment in comments['comments']:
+            self.insert_comments(googleSpanner, comment)
+
+        # TO DO 
+        # Tags 
+        #
+
+        #self.test_request(googleSpanner, "Account")
