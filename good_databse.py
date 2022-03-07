@@ -4,7 +4,7 @@ from datetime import datetime
 import uuid
 
 
-class fljgfjgjkggfdgl:
+class good_database:
 
 
     def __init__(self, database, instance):
@@ -51,7 +51,7 @@ connexion = createGoodSpanner.connect(True)
 sharedData = createGoodSpanner.get_account_information(connexion, "kanyewest")
 
 
-creditsteFljgfjgjkggfdgl = fljgfjgjkggfdgl("tfgen-spanid-20220304203222577", "database-insta-scrapping")
-creditsteFljgfjgjkggfdgl.run()
+createDatabase = good_database("tfgen-spanid-20220307112400987", "database-insta-scrapping")
+createDatabase.run()
 
 
