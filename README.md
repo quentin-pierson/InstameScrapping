@@ -8,6 +8,9 @@ Cet outil a été construit dans un environnement cloud et en 3 phases.
 Dans un premier temps nous avons expérimenté en récupérant les données pertinentes et en essayant de visualiser les tendances qui les régissent.
 
 
+## Architecture
+
+## Database
 
 
 ## Contributors
